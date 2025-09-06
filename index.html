@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoover</title>
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <label for="grid-size">Grid size:</label>
+    <input type="number" id="grid-size" min="1" max="100" value="16">
+    <br>
+    <label for="box-size">Box size:</label>
+    <input type="number" id="box-size" min="3" max="50" value="20">
+    <br>
+    <button id="apply">Apply</button>
+    <button id="reset">Reset</button>
+
+    <form>
+        <label>
+            <input type="radio" name="color" value="black" checked>
+            <span class="swatch" style="background-color: black;"></span>
+        </label>
+        <label>
+            <input type="radio" name="color" value="red">
+            <span class="swatch" style="background-color: red;"></span>
+        </label>
+        <label>
+            <input type="radio" name="color" value="orange">
+            <span class="swatch" style="background-color: orange;"></span>
+        </label>
+        <label>
+            <input type="radio" name="color" value="green">
+            <span class="swatch" style="background-color: green;"></span>
+        </label>
+        <label>
+            <input type="radio" name="color" value="blue">
+            <span class="swatch" style="background-color: blue;"></span>
+        </label>
+        <label>
+            <input type="radio" name="color" value="purple">
+            <span class="swatch" style="background-color: purple;"></span>
+        </label>
+    </form>
+   
+    <div class="container"></div>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+input[type="radio"] {
+    display: none;
+}
+
+.swatch {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+}
+
+input[type="radio"]:checked + .swatch {
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    user-select: none;
+}
